@@ -1,0 +1,57 @@
+make -C /lib/modules/3.13.0-32-generic/build M=/home/lehasever/Labs/PMS_Lab4/PMS_Lab4 modules
+make[1]: Entering directory `/usr/src/linux-headers-3.13.0-32-generic'
+  Building modules, stage 2.
+  MODPOST 1 modules
+make[1]: Leaving directory `/usr/src/linux-headers-3.13.0-32-generic'
+make -C /lib/modules/3.13.0-32-generic/build M=/home/lehasever/Labs/PMS_Lab4/PMS_Lab4 clean
+make[1]: Entering directory `/usr/src/linux-headers-3.13.0-32-generic'
+  CLEAN   /home/lehasever/Labs/PMS_Lab4/PMS_Lab4/.tmp_versions
+  CLEAN   /home/lehasever/Labs/PMS_Lab4/PMS_Lab4/Module.symvers
+make[1]: Leaving directory `/usr/src/linux-headers-3.13.0-32-generic'
+make -C /lib/modules/3.13.0-32-generic/build M=/home/lehasever/Labs/PMS_Lab4/PMS_Lab4 modules
+make[1]: Entering directory `/usr/src/linux-headers-3.13.0-32-generic'
+  CC [M]  /home/lehasever/Labs/PMS_Lab4/PMS_Lab4/calc_proc.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lehasever/Labs/PMS_Lab4/PMS_Lab4/calc_proc.mod.o
+  LD [M]  /home/lehasever/Labs/PMS_Lab4/PMS_Lab4/calc_proc.ko
+make[1]: Leaving directory `/usr/src/linux-headers-3.13.0-32-generic'
+make -C /lib/modules/3.13.0-32-generic/build M=/home/lehasever/Labs/PMS_Lab4/PMS_Lab4 clean
+make[1]: Entering directory `/usr/src/linux-headers-3.13.0-32-generic'
+  CLEAN   /home/lehasever/Labs/PMS_Lab4/PMS_Lab4/.tmp_versions
+  CLEAN   /home/lehasever/Labs/PMS_Lab4/PMS_Lab4/Module.symvers
+make[1]: Leaving directory `/usr/src/linux-headers-3.13.0-32-generic'
+make -C /lib/modules/3.13.0-32-generic/build M=/home/lehasever/Labs/PMS_Lab4/PMS_Lab4 modules
+make[1]: Entering directory `/usr/src/linux-headers-3.13.0-32-generic'
+  CC [M]  /home/lehasever/Labs/PMS_Lab4/PMS_Lab4/calc_proc.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lehasever/Labs/PMS_Lab4/PMS_Lab4/calc_proc.mod.o
+  LD [M]  /home/lehasever/Labs/PMS_Lab4/PMS_Lab4/calc_proc.ko
+make[1]: Leaving directory `/usr/src/linux-headers-3.13.0-32-generic'
+make -C /lib/modules/3.13.0-32-generic/build M=/home/lehasever/University/Lab4 modules
+make[1]: Entering directory `/usr/src/linux-headers-3.13.0-32-generic'
+  CC [M]  /home/lehasever/University/Lab4/calc_proc.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lehasever/University/Lab4/calc_proc.mod.o
+  LD [M]  /home/lehasever/University/Lab4/calc_proc.ko
+make[1]: Leaving directory `/usr/src/linux-headers-3.13.0-32-generic'
+make -C /lib/modules/3.13.0-32-generic/build M=/home/lehasever/University/Lab4 clean
+make[1]: Entering directory `/usr/src/linux-headers-3.13.0-32-generic'
+  CLEAN   /home/lehasever/University/Lab4/.tmp_versions
+  CLEAN   /home/lehasever/University/Lab4/Module.symvers
+make[1]: Leaving directory `/usr/src/linux-headers-3.13.0-32-generic'
+make -C /lib/modules/3.13.0-32-generic/build M=/home/lehasever/University/Lab4 modules
+make[1]: Entering directory `/usr/src/linux-headers-3.13.0-32-generic'
+  CC [M]  /home/lehasever/University/Lab4/calc_proc.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/lehasever/University/Lab4/calc_proc.mod.o
+  LD [M]  /home/lehasever/University/Lab4/calc_proc.ko
+make[1]: Leaving directory `/usr/src/linux-headers-3.13.0-32-generic'
+make -C /lib/modules/3.13.0-32-generic/build M=/home/lehasever/University/Lab4 clean
+make[1]: Entering directory `/usr/src/linux-headers-3.13.0-32-generic'
+  CLEAN   /home/lehasever/University/Lab4/.tmp_versions
+  CLEAN   /home/lehasever/University/Lab4/Module.symvers
+make[1]: Leaving directory `/usr/src/linux-headers-3.13.0-32-generic'
