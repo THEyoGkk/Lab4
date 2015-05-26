@@ -58,6 +58,18 @@ ssize_t calc_second_write(struct file *filp, const char *buf, size_t count, loff
 	return count;
 }
 
+ssize_t calc_operation_write(struct file *filp, const char *buf, size_t count, loff_t *offp)
+{
+	if (count > 2 || (buf[0] != '+' && buf[0] != '-' && buf[0] != '*' && buf[0] != '/')) {
+		printk(KERN_INFO "Invalid operation.\n");
+		return count;
+	}
+
+	operation = buf[0];
+
+	return count;
+}
+
 MODULE_LICENSE("GPL");
 module_init(calc_proc_init);
 module_exit(calc_proc_exit);
